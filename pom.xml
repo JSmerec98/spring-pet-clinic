@@ -14,7 +14,7 @@
     </parent>
     <groupId>jan.spring</groupId>
     <artifactId>spring-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>spring-pet-clinic</name>
     <description>Spring Pet Clinic Project</description>
 
@@ -36,6 +36,7 @@
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -43,7 +44,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/JSmerec98/spring-pet-clinic.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>spring-pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
