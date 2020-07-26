@@ -1,6 +1,6 @@
 package springpetclinic;
 
-import jan.springspringpetclinic.SpringPetClinicApplication;
+import jan.springspringpetclinic.model.SpringPetClinicApplication;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.boot.test.context.SpringBootTest;
