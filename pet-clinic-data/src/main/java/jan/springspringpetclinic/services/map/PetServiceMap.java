@@ -1,6 +1,6 @@
 package jan.springspringpetclinic.services.map;
 
-import jan.springspringpetclinic.Pet;
+import jan.springspringpetclinic.model.Pet;
 import jan.springspringpetclinic.services.PetService;
 import org.springframework.stereotype.Service;
 
@@ -25,7 +25,7 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetS
 
     @Override
     public Pet save(Pet object) {
-        return super.save(object.getId(), object);
+        return super.save(object);
     }
 
     @Override
