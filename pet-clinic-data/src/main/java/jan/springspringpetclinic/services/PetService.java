@@ -1,6 +1,6 @@
 package jan.springspringpetclinic.services;
 
-import jan.springspringpetclinic.model.Pet;
+import jan.springspringpetclinic.Pet;
 
 public interface PetService extends CrudService<Pet,Long> {
 
