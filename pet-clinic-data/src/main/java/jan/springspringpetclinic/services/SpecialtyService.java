@@ -2,5 +2,5 @@ package jan.springspringpetclinic.services;
 
 import jan.springspringpetclinic.model.Speciality;
 
-public interface SpecialtiesService extends CrudService<Speciality, Long> {
+public interface SpecialtyService extends CrudService<Speciality, Long> {
 }
