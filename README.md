@@ -2,6 +2,6 @@
 
 # Spring framework Pet Clinic
 
-Spring pet clinic application 
+Pet clinic application 
 
 
